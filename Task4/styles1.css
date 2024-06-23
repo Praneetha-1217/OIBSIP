@@ -1,7 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cursive;
   }
-  
   .container {
     max-width: 400px;
     margin: 50px auto;
@@ -9,7 +8,6 @@ body {
     border: 1px solid;
     border-radius: 5px;
   }
-  
   input type="text", input type="password", button
   {
     display: block;
@@ -17,10 +15,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
   }
-  
   button {
-    background-color: orange;
+    background-color: blue ;
     color: white;
-    border: none;
-    cursor: pointer;
   }  
