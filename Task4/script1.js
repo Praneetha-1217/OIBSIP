@@ -21,12 +21,12 @@ function login() {
   }
 }
 function showLoginForm() {
-  document.getElementById('loginForm').style.display = 'block';
-  document.getElementById('registerForm').style.display = 'none';
-  document.getElementById('securedPage').style.display = 'none';
+  document.getElementById('loginForm').style="display:block;"
+  document.getElementById('registerForm').style="display:none;"
+  document.getElementById('securedPage').style="display:none;"
 }
 function showSecuredPage() {
-  document.getElementById('loginForm').style.display = 'loginsuccessfull';
-  document.getElementById('registerForm').style.display = 'none';
-  document.getElementById('securedPage').style.display = 'block';
+  document.getElementById('loginForm').style="display:loginsuccessfull;"
+  document.getElementById('registerForm').style="display:none;";
+  document.getElementById('securedPage').style="display:block;";
 }
